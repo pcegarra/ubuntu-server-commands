@@ -10,3 +10,8 @@ sudo nano /var/log/fail2ban.log
 
 #Secure
 nano /etc/fail2ban/jail.conf
+
+#Nginx
+sudo nginx -t (sintaxis ok)
+systemctl restart nginx
+
